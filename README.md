@@ -4,6 +4,11 @@ A fun practice project to learn **JavaScript fundamentals** by coding your own *
 
 ---
 
+[![Game Preview](image/rpg.png)](https://rpg-dragon-repeller-js.netlify.app/)  
+*Click the image to play the game!*
+
+---
+
 ## 📖 About This Project
 
 JavaScript is a powerful scripting language used to make web pages interactive.  
@@ -45,7 +50,7 @@ This project will help you strengthen your JavaScript skills while creating some
 
 ## 🛠️ Technologies Used
 
-- **JavaScript (Vanilla)**  
+- **JavaScript**  
 - **HTML**  
 - **CSS**
 
@@ -53,12 +58,19 @@ This project will help you strengthen your JavaScript skills while creating some
 
 ## 📂 Project Structure
 
-rpg-game/
-│
-├── index.html
-├── styles.css
-└── script.js
+    rpg-game/
+    │
+    ├── index.html
+    ├── styles.css
+    └── script.js
 
+
+---
+
+## 🌐 Live Demo
+
+Check out the live version of the game here:  
+[Play the RPG Game on Netlify](https://rpg-dragon-repeller-js.netlify.app/)
 
 ---
 
@@ -75,20 +87,6 @@ rpg-game/
 - [JavaScript.info — The Modern JavaScript Tutorial](https://javascript.info/)
 
 ---
-
-## 📬 How to Run
-
-Clone the repository and open `index.html` in your browser:
-
-```bash
-git clone https://github.com/yourusername/rpg-game.git
-cd rpg-game
-# open index.html in your browser or run a simple local server:
-python3 -m http.server 8000
-# then visit http://localhost:8000 in your browser
-```
----
-
 
 ## 📄 License
 
