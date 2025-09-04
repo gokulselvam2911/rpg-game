@@ -1,0 +1,98 @@
+body {
+  background-color: #0a0a23;
+  font-family: 'Press Start 2P', monospace;
+  color: #ffffff;
+  line-height: 1.4;
+  font-size: 14px; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px; 
+  margin-bottom: 15px;
+}
+
+#game {
+  width: 95%;            
+  max-width: 700px;    
+  margin: 40px auto;
+  background-color: #1b1b3a;
+  padding: 20px;         
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+}
+
+#stats,
+#controls,
+#monsterStats {
+  border: 1px solid #0a0a23;
+  padding: 20px;         
+  margin-bottom: 15px;
+  background-color: #ffffff10;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  flex: 1;
+  min-width: 150px;      
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  font-family: inherit;
+  font-size: 14px;       
+  padding: 12px;         
+  transition: background-color 0.2s ease;
+  border-radius: 5px;
+  box-shadow: 0 4px #c67a1a;
+}
+
+button:hover {
+  background-color: #ffd766;
+  background-image: linear-gradient(#ffe87a, #ffc766);
+}
+
+#monsterStats {
+  display: none;
+  background-color: #c70d0d;
+  color: #ffffff;
+  font-size: 14px;        
+}
+
+.stat {
+  display: block;
+  margin: 5px 0;           
+  font-size: 14px;       
+}
+
+.bar {
+  background: #555;
+  height: 12px;           
+  width: 100%;
+  border-radius: 3px;
+  margin: 4px 0 8px;
+  overflow: hidden;
+}
+
+.fill {
+  background: #00ff99;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  transition: width 0.2s ease;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;        
+  min-height: 80px;
+}
